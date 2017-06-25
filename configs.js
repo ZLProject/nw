@@ -4,7 +4,11 @@ exports.wifi={
 	'pass':'diy12345'					//wifi密码
 };
 exports.sevice={
+<<<<<<< HEAD
 	'machineNo':'CS00001',				//终端机编号
+=======
+	'machineNo':'RJ00144',				//终端机编号
+>>>>>>> 86058ddac6724e0fa26d1e8e876107117324d4f1
 	'printerTimer':3000,				//打印指令发送间隔
 	'heartBeatTimer':1000*60,			//心跳包发送时间
 	'adUpdateTimer':1000*60*60,			//广告更新自动检测间隔
