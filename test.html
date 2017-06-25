@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var Mediator = function () {
+        var _msg = {};
+        return {
+            register: function (type, action) {
+                if (_msg[type]) {
+                    _msg[type].push(action);
+                } else {
+                    _msg[type] = [];
+                    _msg[type].push(action);
+                }
+            },
+            send: function (type) {
+                if (_msg[type]) {
+                    for (var i = 0; i < _msg[type].length; i++) {
+                        _msg[type][i] && _msg[type][i]();
+                    }
+                }
+            }
+        }
+    }();
+
+    Mediator.register("down", function () {
+        console.log('下载完成');
+    });
+
+    Mediator.send('down');
+
+
+</script>
+</html>
