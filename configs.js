@@ -4,7 +4,7 @@ exports.wifi={
 	'pass':'diy12345'					//wifi密码
 };
 exports.sevice={
-	'machineNo':'RJ00144',				//终端机编号
+	'machineNo':'CS00001',				//终端机编号
 	'printerTimer':3000,				//打印指令发送间隔
 	'heartBeatTimer':1000*60,			//心跳包发送时间
 	'adUpdateTimer':1000*60*60,			//广告更新自动检测间隔
@@ -47,6 +47,6 @@ exports.mine={							//http服务mine
 	"wma": "audio/x-ms-wma",
 	"wmv": "video/x-ms-wmv",
 	"xml": "text/xml",
-	"mp4": "video/mp4",
+	"mp4": "video/mp4"
 
 }

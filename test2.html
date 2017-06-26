@@ -4,12 +4,18 @@
 	<meta charset="UTF-8">
 	<title>Title</title>
 	<script src="jquery-2.1.1.min.js"></script>
+	<style>
+		a{
+			visibility: hidden;
+		}
+	</style>
 </head>
 <body>
-<input type="text" value="123">
+<input type="f" value="123">
 </body>
 <script>
-    var a  = new Date().getTime()
-	console.log(a)
+    var a = [1,2,3,4,5,6];
+    var b = Math.max.apply(null,a)
+	console.log(b)
 </script>
 </html>

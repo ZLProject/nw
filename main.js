@@ -1,4 +1,3 @@
-var printer = {};
 var printer = {
     'showAds': 0,
     'hasAds': false,
@@ -845,7 +844,7 @@ var printer = {
             killSignal: 'SIGTERM', //??
             cwd: 'cmd', //工作目录
             env: null //环境变量
-        }
+        },
         appPath = printer.fs.realpathSync('.');
         //var printCmd='mspaint /p '+appPath+'\\'+path;
         if (size != 8) {
@@ -865,6 +864,50 @@ var printer = {
                 callback(err, stdout, stderr);
         });
     },
+    'testPrint':function (printObj,size,callback) {
+        var _photoName = printObj.imgUrl;
+        var _path = 'public\\photo\\' + _photoName + '.jpg';
+        console.log('正在打印照片');
+        callback && callback(_photoName);
+    },
+
+    /*
+    * 停止打印
+    * printObj  {imgUrl:'url'}*/
+    'stopPrint':function (printObj) {
+        //从数据库中修改该订单状态
+        printer.normal.closeClientOrder(printObj.imgUrl);
+        //订单获取失败，从队列中清除
+        printer.global.cleanPrintList(printObj);
+        //重新设置标题信息
+        printer.client.getToSetInfo();
+        if (!printer.global.checkPrintList()) {
+            // printer.nav.reset();
+        }
+        //回调到gotoPrint
+        // setTimeout(function () {
+        //     printer.normal.gotoPrint();
+        // }, 1000);
+    },
+    /*
+    * 打印完成之后删除目录下的照片
+    * photoName  要删除的照片名称
+    */
+    'deletePhoto':function (photoName) {
+        var _p = printer.fs.realpathSync('.'),
+            _photoPath = '\\public\\photo\\',
+        _path = _p + _photoPath + photoName + '.jpg';
+        /*测试路径下的文件是否存在*/
+        var timer = setInterval(function () {/*定时删除文件，当文件没有写入时，程序已执行完毕。不能正确读取文件*/
+            printer.fs.exists(_path, function (ex) {
+                if (ex){/*如果存在*/
+                    clearInterval(timer);/*清除定时器*/
+                    printer.fs.unlinkSync(_path);/*删除照片操作*/
+                    console.log('照片'+ photoName+'.jpg，已成功删除！')
+                }
+            });
+        },1000)
+    }
 };
 /**
  海底捞打印全局变量
@@ -891,7 +934,7 @@ printer.global = {
         "second": 5
     },
     /*设置动态码到终端机的展示框*/
-    "setRandomToTitle": function () {
+    "setRandom": function () {
         $("#dynamic-number").val(printer.global.clientInfo.randomnum);
     },
     /*设置工作状态*/
@@ -965,7 +1008,7 @@ printer.normal = {
         /*间隔时间*/
         printer.global.clientInfo.second = res.second;
         //显示终端机随机码
-        printer.global.setRandomToTitle();
+        printer.global.setRandom();
         //调用startTimer，开始定时查询服务端关联数据
         printer.normal.startTimer();
     },
@@ -1045,27 +1088,9 @@ printer.normal = {
      faild   删除该打印对象，重新走打印流程
      */
     "downloadImg": function (printObj) {/*example {imgUrl:"33723623}"*/
-        console.log('开始下载图片');
-        printer.normal.getFileByCode(printObj.imgUrl, function (err, stdout, stderr) {
-            if (err) {/*如果下载出现错误*/
-                setTimeout(function () {
-                    /*清楚打印队列中出错的项*/
-                    printer.global.cleanPrintList(printObj);
-                    //重新启动海底捞打印流程
-                    printer.normal.gotoPrint();
-                }, 1000);
-            } else {/*如果成功，就去打印*/
-                setTimeout(function () {
-                    printer.normal.doPrint(printObj);
-                }, 3000);
-            }
-        });
-    },
-    /*真正的下载图片操作*/
-    'getFileByCode': function (code, callback) { //根据微信码取得文件
         var appPath = printer.fs.realpathSync('.'); //程序绝对路径
-        var getCmd = 'wget -O ../public/photo/' + code + '.jpg  ' + printer.appConfig.api.server + '/print/' + code + '.jpg';
-        var delCmd = 'del ' + appPath + '\\public\\photo\\' + code + '.jpg';
+        var getCmd = 'wget -O ../public/photo/' + printObj.imgUrl + '.jpg  ' + printer.appConfig.api.server + '/print/' + printObj.imgUrl + '.jpg';
+        var delCmd = 'del ' + appPath + '\\public\\photo\\' + printObj.imgUrl + '.jpg';
         var opt = {
             encoding: 'utf8', //编码
             timeout: 0, //超时
@@ -1075,43 +1100,36 @@ printer.normal = {
             env: null //环境变量
         };
         // 使用exec执行wget命令
-        var child = printer.exec(getCmd, opt, function (err, stdout, stderr) {
-            if (err) {
-                //删除下载失败后产生的0字节大小的文件
-                printer.exec(delCmd, opt, function (err1, stdout1, stderr1) {
-                });
-            } else {
-                console.info(stderr + '\n----\n');
-            }
-            if (typeof(callback) !== "undefined") {
-                callback(err, stdout, stderr);
-            }
+        var promise = new Promise(function (resole, reject) {
+            printer.exec(getCmd, opt, function (err, stdout, stderr) {
+                if (err) {
+                    reject(printObj);
+                } else {
+                    resole();
+                }
+            });
         });
+        promise.then(function onFulfilled(value) {
+            console.log("图片下载成功");
+            printer.normal.doPrint(printObj);
+        }).catch(function onRejected(printObj) {
+            console.log('图片下载失败');
+            //删除下载失败后产生的0字节大小的文件
+            printer.exec(delCmd, opt, function (err1, stdout1, stderr1) {});
+            /*清楚打印队列中出错的项*/
+            printer.global.cleanPrintList(printObj);
+            //重新启动海底捞打印流程
+            printer.normal.gotoPrint();
+        })
     },
     "doPrint": function (printObj) {
-        var code = printObj.imgUrl;
-        var api = printer.appConfig.api.server,
-            orderUrl = api + '/api/getOrder/' + code + '/' + new Date().getTime() + "?machineNo=" + printer.appConfig.sevice.machineNo,
-            printPhotoUrl = api + '/api/printPhoto/' + code + '/' + printer.appConfig.sevice.machineNo + '/' + new Date().getTime();
-        var _stopPrint = function (printObj) {
-            //从数据库中修改该订单状态
-            printer.normal.closeClientOrder(printObj.imgUrl);
-            //订单获取失败，从队列中清除
-            printer.global.cleanPrintList(printObj);
-            //重新设置标题信息
-            printer.client.getToSetInfo();
-            if (!printer.global.checkPrintList()) {
-                printer.nav.reset();
-            }
-            //回调到gotoPrint
-            setTimeout(function () {
-                printer.normal.gotoPrint();
-            }, 1000);
-
-        };
-
-        //获取订单  未完待续
+        var _imgUrl = printObj.imgUrl;
+        var _server = printer.appConfig.api.server,
+            orderUrl = _server + '/api/getOrder/' + _imgUrl + '/' + new Date().getTime() + "?machineNo=" + printer.appConfig.sevice.machineNo,
+            printPhotoUrl = _server + '/api/printPhoto/' + _imgUrl + '/' + printer.appConfig.sevice.machineNo + '/' + new Date().getTime();
+        //获取订单
         $.get(orderUrl, function (orderData) {
+            console.log('当前订单数'+orderData.order.count,'已打印订单数'+orderData.order.currentcount);
            /* orderData = {
                 state: true,
                  order: {
@@ -1149,105 +1167,42 @@ printer.normal = {
                 }
             }*/
             if (orderData.state) {
+                console.log('订单状态'+orderData.state);
                 var num = orderData.order.count * 1 - orderData.order.currentcount * 1;
                 if (num <= 0) {
                     //停止本次打印，并重新走打印流程
-                    _stopPrint(printObj);
+                    printer.stopPrint(printObj);
                 } else {
-                    var sumNum = num;
-                    var nowNum = 1;
-                    //递归打印照片
-                    var _printPhoto = function (code) {
-                        if (num <= 0) {
-                            //停止本次打印，并重新走打印流程
-                            _stopPrint(printObj);
+                    //更新服务器订单打印计数
+                    $.get(printPhotoUrl, function (printPhotoData) {
+                        console.log(printPhotoData.state);
+                        // console.log(printPhotoData);
+                        if (printPhotoData.state) {
+                            //执行打印
+                            var _size = orderData.order.size;
+                            printer.testPrint(printObj,_size,function (photoName) {
+                                /*删除本地打印过的照片*/
+                                printer.deletePhoto(photoName);
+                            })
                         } else {
-                            //更新服务器订单打印计数
-                            $.get(printPhotoUrl, function (printPhotoData) {
-                                console.log(printPhotoData);
-                                if (printPhotoData.state) {
-                                    //执行打印
-                                    var delPhotoEvent = function () {
-                                        var _a = printer.fs.realpathSync('.'),
-                                            _f1 = '\\public\\photo\\';
-                                        _unp = _a + _f1 + code + '.jpg';
-                                        printer.fs.exists(_unp, function (ex) {
-                                            if (ex)
-                                                printer.fs.unlinkSync(_unp);
-                                        });
-                                        try {
-                                            clearTimeout(_auto_close_event);
-                                        } catch (e) {
-                                            //console.log(e);
-                                        }
-                                        ;
-                                        printer.nav.reset();
-                                    }
-                                    //console.log("啊哈哈哈哈哈哈哈哈" + orderData.order);
-                                    //add by yaojinqiu 20160713
-                                    var _size = orderData.order.size;
-                                    printer.print('public\\photo\\' + code + '.jpg', _size, function (err, stdout, stderr) {
-                                        //console.log('---------->',i,num);
-                                        //alert('打印 '+printPhotoData.current+' 指令发送成功！');
-                                        //防止多次弹出完成提示框
-                                        printer.alert({
-                                            'title': '正在打印...',
-                                            'txt': '共' + sumNum + '张，系统正在打印第' + nowNum + '张，请稍候..<p style="color:red;font-size:14px;"><span id="self_print_tips_box"></span>为了保护您的隐私，本照片将自动从本终端删除！</p>',
-                                            'btn': ['确定'],
-                                            'top': 100,
-                                            'callback': [function (o) {
-                                                delPhotoEvent();
-                                            }]
-                                        });
-                                        num--;
-                                        nowNum++;
-                                        var _tips_event_i = 0;
-                                        var _tips_event = function () {
-                                            _tips_event_i += 1;
-                                            $('#self_print_tips_box').html('打印指令发送成功！' + (10 - _tips_event_i) + ' 秒后自动关闭！<br>');
-                                            if (_tips_event_i < 10) {
-                                                _auto_close_event = setTimeout(function () {
-                                                    _tips_event();
-                                                }, 1000);
-                                            } else {
-                                                if (num <= 0) {
-                                                    delPhotoEvent();
-                                                }
-                                            }
-                                        }
-                                        printer.log.other.info("print success!");
-                                        _tips_event();
-                                        //修改num数量
-                                        //进行第N次打印
-                                        setTimeout(function () {
-                                            _printPhoto(code);
-                                        }, 9500);
-                                    });
-                                } else {
-                                    printer.log.other.info("order upd faild ：" + code);
-                                    //停止本次打印，并重新走打印流程
-                                    _stopPrint(printObj);
-                                }
-                            });
+                            //停止本次打印，并重新走打印流程
+                            printer.stopPrint(printObj);
                         }
-                    }
-                    _printPhoto(code);
+                    });
                 }
             } else {
                 //停止本次打印，并重新走打印流程
-                _stopPrint(printObj);
+                console.log('停止打印')
+                printer.stopPrint(printObj);
             }
         });
     },
     "closeClientOrder": function (code) {
         var api = printer.appConfig.api.server;
         var closeApi = api + "/api/closeClientOrder/" + code;
-        printer.log.other.info("close client order code is  ：" + code);
-        $.get(closeApi, function (result) {
-        });
+        $.get(closeApi, function (result) {});
     }
 };
-
 /**
  获取终端机信息
  */
@@ -1257,7 +1212,6 @@ printer.client = {
         var _mno = printer.appConfig.sevice.machineNo,
             /*_url = http://123.57.207.27/api/clientInfo/RJ00144*/
             _url = printer.appConfig.api.server + "/api/clientInfo/" + _mno;
-
         $.get(_url, function (res) {/*res ={printerTimer:12,processtype:0,randomnum:74434,second:5,sta:true}*/
             if (res.sta && res.processtype == 0) {
                 //走普通打印流程
@@ -1280,7 +1234,7 @@ printer.client = {
                     printer.global.clientInfo.randomnum = res.randomnum;
                     printer.global.clientInfo.second = res.second;
                     //显示终端机随机码
-                    printer.global.setRandomToTitle();
+                    printer.global.setRandom();
                     console.log("reset random to title : " + res.randomnum)
                     // printer.log.other.info("reset random to title : " + res.randomnum);
                 } else if (res.processtype == 1) {
