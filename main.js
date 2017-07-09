@@ -837,39 +837,35 @@ var printer = {
     },
 
     /*打印照片*/
-    'print': function (path, size, callback) { //打印照片判断是几寸的
+
+    'print':function (printObj,size,callback) {
+        var _photoName = printObj.imgUrl;
+        var _path = 'public\\photo\\' + _photoName + '.jpg';
+
         var opt = {
-            encoding: 'utf8', //编码
-            timeout: 0, //超时
-            maxBuffer: 200 * 1024, //信息缓冲区
-            killSignal: 'SIGTERM', //??
-            cwd: 'cmd', //工作目录
-            env: null //环境变量
-        },
-        appPath = printer.fs.realpathSync('.');
-        //var printCmd='mspaint /p '+appPath+'\\'+path;
+                encoding: 'utf8', //编码
+                timeout: 0, //超时
+                maxBuffer: 200 * 1024, //信息缓冲区
+                killSignal: 'SIGTERM', //??
+                cwd: 'cmd', //工作目录
+                env: null //环境变量
+            },
+            appPath = printer.fs.realpathSync('.');
         if (size != 8) {
-            var printCmd = 'rundll32 C:\\WINDOWS\\system32\\shimgvw.dll,ImageView_PrintTo "' + appPath + '\\' + path + '" "DS-RX1"';
+            var printCmd = 'rundll32 C:\\WINDOWS\\system32\\shimgvw.dll,ImageView_PrintTo "' + appPath + '\\' + _path + '" "DS-RX2"';
             // var printCmd = 'rundll32 C:\\WINDOWS\\system32\\shell32.dll,RestartDialog';
         } else {
-            var printCmd = 'rundll32 C:\\WINDOWS\\system32\\shimgvw.dll,ImageView_PrintTo "' + appPath + '\\' + path + '" "DS-RX1-8"';
+            var printCmd = 'rundll32 C:\\WINDOWS\\system32\\shimgvw.dll,ImageView_PrintTo "' + appPath + '\\' + _path + '" "DS-RX1-8"';
         }
-        //return false;
+        console.log('正在打印照片');
         var child = printer.exec(printCmd, opt, function (err, stdout, stderr) {
             if (err) {
                 console.log(err + '-->' + printCmd);
             } else {
                 console.log(stderr + '-->' + printCmd);
+                callback && callback(_photoName);
             }
-
-            callback && callback(err, stdout, stderr);
         });
-    },
-    'testPrint':function (printObj,size,callback) {
-        var _photoName = printObj.imgUrl;
-        var _path = 'public\\photo\\' + _photoName + '.jpg';
-        console.log('正在打印照片');
-        callback && callback(_photoName);
     }
 };
 /**
@@ -1150,7 +1146,8 @@ printer.normal = {
                         if (printPhotoData.state) {
                             //执行打印
                             var _size = orderData.order.size;
-                            printer.testPrint(printObj,_size,function (photoName) {
+
+                            printer.print(printObj,_size,function (photoName) {
                                 /*删除本地打印过的照片*/
                                 printer.normal.deletePhoto(photoName);
                                 printer.normal.stopPrint(printObj);
