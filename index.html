@@ -77,10 +77,24 @@
             margin-bottom: 10px;
             letter-spacing: 8px;
         }
+        .preview{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+        }
+        .preview .innerBox{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
     </style>
 </head>
 <body>
-<div class="main">
+<div class="main" id="main-js">
     <div class="content-left">
         <div class="shanfeng-QR-code">
             <img src="images/shanfeng-QR-code.jpg" width="194" height="194" alt="">
@@ -117,16 +131,24 @@
             </div>
         </div>
     </div>
+    <!--<div id="preview-js" class="preview">-->
+        <!--<div class="innerBox">-->
+            <!--<img src="23.jpg" alt="">-->
+            <!--<button id="sure">确定</button>-->
+            <!--<button id="cancel">取消</button>-->
+        <!--</div>-->
+    <!--</div>-->
 </div>
 </body>
 <script src="jquery-2.1.1.min.js"></script>
-<script src="main.js"></script>
+<script src="main2.js"></script>
 <script>
     $(function () {
-        printer.uploadService();
-        printer.updateAds();
+        uploadService();
+        ad.updateAds();
 //        printer.heartBeatInit();
         printer.client.getInfo();
+//        printer.normal.previewImg("23.jpg");
 //        printer.client.getToSetInfo();
     });
 </script>

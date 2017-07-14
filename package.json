@@ -5,6 +5,45 @@
   "webkit": {
     "plugin": true
   },
+  "window": {
+    /**字符串，设置默认title。*/
+    "title": "demo",
+    /**窗口的icon。*/
+    "icon": "link.png",
+    /**bool值。是否显示导航栏。*/
+    "toolbar": false,
+    /**bool值。是否允许调整窗口大小。*/
+    "resizable": true,
+    /**是否全屏*/
+    "fullscreen": false,
+    /**是否在win任务栏显示图标*/
+    "show_in_taskbar": true,
+    /**bool值。如果设置为false，程序将无边框显示。*/
+    "frame": true,
+    /**字符串。窗口打开时的位置，可以设置为“null”、“center”或者“mouse”。*/
+    "position": "center",
+    /**主窗口的的宽度。*/
+    "width": 1200,
+    /**主窗口的的高度。*/
+    "height": 670,
+    /**窗口的最小宽度。*/
+    "min_width": 1200,
+    /**窗口的最小高度。*/
+    "min_height": 335,
+    /**窗口显示的最大宽度，可不设。*/
+    "max_width": 1200,
+    /**窗口显示的最大高度，可不设。*/
+    "max_height": 670,
+    /**bool值，如果设置为false，启动时窗口不可见。*/
+    "show": true,
+    /**是否在任务栏显示图标。*/
+    "show_in_taskbar":true,
+    /**
+	 * bool值。是否使用kiosk模式。如果使用kiosk模式，
+	 * 应用程序将全屏显示，并且阻止用户离开应用。
+	 * */
+    "kiosk": false
+  },
   "devDependencies": {
     "formidable": "^1.1.1",
     "imagemagick": "^0.1.3",
