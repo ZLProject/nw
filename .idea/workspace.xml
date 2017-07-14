@@ -2,165 +2,173 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43c3afc3-ec85-4707-b93c-60e837437292" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/mime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/mime.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/AUTHORS.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/dist/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/dist/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/dist/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/dist/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/dist/jquery.slim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/dist/jquery.slim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/dist/jquery.slim.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/external/sizzle/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/external/sizzle/dist/sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/external/sizzle/dist/sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/external/sizzle/dist/sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/.eslintrc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/ajax/jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/ajax/load.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/ajax/parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/ajax/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/ajax/var/location.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/ajax/var/nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/ajax/var/rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/ajax/xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/attributes/attr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/attributes/classes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/attributes/prop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/attributes/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/attributes/val.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/DOMEval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/access.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/nodeName.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/ready-no-deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/ready.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/readyException.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/stripAndCollapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/core/var/rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/adjustCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/showHide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/var/cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/var/getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/var/isHiddenWithinTree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/var/rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/var/rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/css/var/swap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/data/Data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/data/var/acceptData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/data/var/dataPriv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/data/var/dataUser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/deferred/exceptionHook.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/effects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/effects/Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/effects/animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/event.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/event/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/event/alias.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/event/focusin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/event/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/event/trigger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/exports/amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/exports/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/manipulation/_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/manipulation/buildFragment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/manipulation/getAll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/manipulation/setGlobalEval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/manipulation/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/manipulation/var/rscriptType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/manipulation/var/rtagName.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/manipulation/wrapMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/offset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/queue/delay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/selector-native.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/traversing/findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/traversing/var/dir.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/traversing/var/rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/traversing/var/siblings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/ObjectFunctionString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/arr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/document.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/documentElement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/fnToString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/getProto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/push.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/rcssNum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/rnothtmlwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/slice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/var/toString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/_jquery@3.2.1@jquery/src/wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/photo/23790445.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/photo/33723623.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/photo/33790471.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/photo/43790455.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/photo/53790482.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/video/video310.flv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/video/video283.mp4" afterPath="$PROJECT_DIR$/public/video/video283.mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/video/video285.mp4" afterPath="$PROJECT_DIR$/public/video/video285.mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/video/video315.mp4" afterPath="$PROJECT_DIR$/public/video/video315.mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nwjs-sdk.iml" afterPath="$PROJECT_DIR$/.idea/nwjs-sdk.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/cmd.txt" afterPath="$PROJECT_DIR$/cmd/cmd.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/index.html" afterPath="$PROJECT_DIR$/cmd/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs.js" afterPath="$PROJECT_DIR$/configs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery-2.1.1.min.js" afterPath="$PROJECT_DIR$/jquery-2.1.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/jquery-3.2.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/static" afterPath="$PROJECT_DIR$/node_modules/.bin/static" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/.npminstall.done" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/LICENSE" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/ReadMe.md" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/ReadMe.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/examples/normal-usage.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/examples/normal-usage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/examples/safe-string.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/examples/safe-string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/colors.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/colors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/custom/trap.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/custom/trap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/custom/zalgo.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/custom/zalgo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/extendStringPrototype.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/extendStringPrototype.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/maps/america.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/maps/america.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/maps/rainbow.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/maps/rainbow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/maps/random.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/maps/random.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/maps/zebra.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/maps/zebra.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/styles.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/system/supports-colors.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/lib/system/supports-colors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/package.json" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/safe.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/safe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/themes/generic-logging.js" afterPath="$PROJECT_DIR$/node_modules/_colors@1.1.2@colors/themes/generic-logging.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/.npmignore" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/.npmignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/LICENSE" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/Readme.md" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/file.js" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/incoming_form.js" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/incoming_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/json_parser.js" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/json_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/multipart_parser.js" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/multipart_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/octet_parser.js" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/octet_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/querystring_parser.js" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/lib/querystring_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/package.json" afterPath="$PROJECT_DIR$/node_modules/_formidable@1.1.1@formidable/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/.npmignore" afterPath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/.npmignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/README.md" afterPath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/imagemagick.js" afterPath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/imagemagick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/package.json" afterPath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/test-crop.js" afterPath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/test-crop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/test.js" afterPath="$PROJECT_DIR$/node_modules/_imagemagick@0.1.3@imagemagick/test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/LICENSE" afterPath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/README.md" afterPath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/build/build.js" afterPath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/build/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/build/test.js" afterPath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/build/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/cli.js" afterPath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/mime.js" afterPath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/mime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/package.json" afterPath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/types.json" afterPath="$PROJECT_DIR$/node_modules/_mime@1.3.6@mime/types.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/LICENSE" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/example/parse.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/example/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/index.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/readme.markdown" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/readme.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/bool.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/bool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/dash.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/dash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/default_bool.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/default_bool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/dotted.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/dotted.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/long.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/long.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/num.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/num.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/parse_modified.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/parse_modified.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/short.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/short.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/whitespace.js" afterPath="$PROJECT_DIR$/node_modules/_minimist@0.0.10@minimist/test/whitespace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/.npmignore" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/.npmignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/LICENSE" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/README.md" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/benchmark/node-static-0.3.0.txt" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/benchmark/node-static-0.3.0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/bin/cli.js" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/bin/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/examples/file-server.js" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/examples/file-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/lib/node-static.js" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/lib/node-static.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/lib/node-static/util.js" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/lib/node-static/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/node_modules/.bin/mime" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/node_modules/.bin/mime" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/package.json" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/test/fixtures/index.html" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/test/fixtures/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/test/fixtures/there/index.html" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/test/fixtures/there/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/test/integration/node-static-test.js" afterPath="$PROJECT_DIR$/node_modules/_node-static@0.7.9@node-static/test/integration/node-static-test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/LICENSE" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/bool.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/bool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/boolean_double.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/boolean_double.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/boolean_single.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/boolean_single.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/default_hash.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/default_hash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/default_singles.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/default_singles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/divide.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/divide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/line_count.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/line_count.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/line_count_options.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/line_count_options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/line_count_wrap.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/line_count_wrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/nonopt.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/nonopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/reflect.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/reflect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/short.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/short.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/string.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/usage-options.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/usage-options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/xup.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/example/xup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/index.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/package.json" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/readme.markdown" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/readme.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/_.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/_.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/_/argv.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/_/argv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/_/bin.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/_/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/dash.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/dash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/parse_modified.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/parse_modified.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/short.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/short.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/usage.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/usage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/whitespace.js" afterPath="$PROJECT_DIR$/node_modules/_optimist@0.6.1@optimist/test/whitespace.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/LICENSE" afterPath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/README.markdown" afterPath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/README.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/example/center.js" afterPath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/example/center.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/example/meat.js" afterPath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/example/meat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/index.js" afterPath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/package.json" afterPath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/test/break.js" afterPath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/test/break.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/test/idleness.txt" afterPath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/test/idleness.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/test/wrap.js" afterPath="$PROJECT_DIR$/node_modules/_wordwrap@0.0.3@wordwrap/test/wrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/.npmignore" afterPath="$PROJECT_DIR$/node_modules/formidable/.npmignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/formidable/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/formidable/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/LICENSE" afterPath="$PROJECT_DIR$/node_modules/formidable/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/Readme.md" afterPath="$PROJECT_DIR$/node_modules/formidable/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/file.js" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/incoming_form.js" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/incoming_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/json_parser.js" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/json_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/multipart_parser.js" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/multipart_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/octet_parser.js" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/octet_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/lib/querystring_parser.js" afterPath="$PROJECT_DIR$/node_modules/formidable/lib/querystring_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node_modules/formidable/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/imagemagick/.npmignore" afterPath="$PROJECT_DIR$/node_modules/imagemagick/.npmignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/imagemagick/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/imagemagick/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/imagemagick/README.md" afterPath="$PROJECT_DIR$/node_modules/imagemagick/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/imagemagick/imagemagick.js" afterPath="$PROJECT_DIR$/node_modules/imagemagick/imagemagick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/imagemagick/package.json" afterPath="$PROJECT_DIR$/node_modules/imagemagick/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/imagemagick/test-crop.js" afterPath="$PROJECT_DIR$/node_modules/imagemagick/test-crop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/imagemagick/test.js" afterPath="$PROJECT_DIR$/node_modules/imagemagick/test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/mime/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/LICENSE" afterPath="$PROJECT_DIR$/node_modules/mime/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/README.md" afterPath="$PROJECT_DIR$/node_modules/mime/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/build/build.js" afterPath="$PROJECT_DIR$/node_modules/mime/build/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/build/test.js" afterPath="$PROJECT_DIR$/node_modules/mime/build/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/cli.js" afterPath="$PROJECT_DIR$/node_modules/mime/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/mime.js" afterPath="$PROJECT_DIR$/node_modules/mime/mime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/mime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/types.json" afterPath="$PROJECT_DIR$/node_modules/mime/types.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/.npmignore" afterPath="$PROJECT_DIR$/node_modules/node-static/.npmignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/node-static/.npminstall.done" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/LICENSE" afterPath="$PROJECT_DIR$/node_modules/node-static/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/README.md" afterPath="$PROJECT_DIR$/node_modules/node-static/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/benchmark/node-static-0.3.0.txt" afterPath="$PROJECT_DIR$/node_modules/node-static/benchmark/node-static-0.3.0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/bin/cli.js" afterPath="$PROJECT_DIR$/node_modules/node-static/bin/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/examples/file-server.js" afterPath="$PROJECT_DIR$/node_modules/node-static/examples/file-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/lib/node-static.js" afterPath="$PROJECT_DIR$/node_modules/node-static/lib/node-static.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/lib/node-static/util.js" afterPath="$PROJECT_DIR$/node_modules/node-static/lib/node-static/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/node_modules/.bin/mime" afterPath="$PROJECT_DIR$/node_modules/node-static/node_modules/.bin/mime" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/package.json" afterPath="$PROJECT_DIR$/node_modules/node-static/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/test/fixtures/index.html" afterPath="$PROJECT_DIR$/node_modules/node-static/test/fixtures/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/test/fixtures/there/index.html" afterPath="$PROJECT_DIR$/node_modules/node-static/test/fixtures/there/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-static/test/integration/node-static-test.js" afterPath="$PROJECT_DIR$/node_modules/node-static/test/integration/node-static-test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/video/ad.html" afterPath="$PROJECT_DIR$/public/video/ad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reset.css" afterPath="$PROJECT_DIR$/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2.html" afterPath="$PROJECT_DIR$/test2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -178,10 +186,10 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="216">
               <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
-                <marker date="1498476191567" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
+                <marker date="1498524265329" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
               </folding>
             </state>
           </provider>
@@ -190,8 +198,8 @@
       <file leaf-file-name="configs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state relative-caret-position="216">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -200,37 +208,28 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="839" column="45" lean-forward="false" selection-start-line="839" selection-start-column="45" selection-end-line="839" selection-end-column="45" />
+            <state relative-caret-position="-1996">
+              <caret line="679" column="48" lean-forward="false" selection-start-line="679" selection-start-column="48" selection-end-line="679" selection-end-column="48" />
               <folding>
-                <element signature="e#334#14874#0" expanded="false" />
-                <element signature="e#14918#15861#0" expanded="false" />
-                <element signature="e#15882#23936#0" expanded="false" />
-                <element signature="e#23968#34870#0" expanded="false" />
-                <element signature="e#34919#35376#0" expanded="false" />
-                <element signature="e#35437#36550#0" expanded="false" />
-                <element signature="e#36602#36785#0" expanded="false" />
-                <element signature="e#36825#39216#0" expanded="false" />
-                <element signature="e#37068#37158#0" expanded="false" />
-                <element signature="e#37211#37289#0" expanded="false" />
-                <element signature="e#37337#37382#0" expanded="false" />
-                <element signature="e#37538#37610#0" expanded="false" />
-                <element signature="e#37672#37746#0" expanded="false" />
-                <element signature="e#37804#38529#0" expanded="false" />
-                <element signature="e#38589#39055#0" expanded="false" />
-                <element signature="e#39113#39214#0" expanded="false" />
-                <element signature="e#39366#39653#0" expanded="false" />
-                <element signature="e#39705#41333#0" expanded="false" />
-                <element signature="e#40019#40218#0" expanded="false" />
-                <element signature="e#41528#42137#0" expanded="false" />
-                <element signature="e#42733#44208#0" expanded="false" />
-                <element signature="e#43124#43342#0" expanded="false" />
-                <element signature="e#43404#43716#0" expanded="false" />
-                <element signature="e#44788#45994#0" expanded="false" />
-                <element signature="e#47418#47582#0" expanded="false" />
-                <element signature="e#47687#48262#0" expanded="false" />
-                <element signature="e#48353#48782#0" expanded="false" />
-                <element signature="e#49401#50703#0" expanded="false" />
+                <element signature="e#27854#29039#0" expanded="false" />
+                <element signature="e#29133#32007#0" expanded="false" />
+                <element signature="e#32057#32920#0" expanded="false" />
+                <element signature="e#34547#34765#0" expanded="false" />
+                <element signature="e#36145#36235#0" expanded="false" />
+                <element signature="e#36288#36366#0" expanded="false" />
+                <element signature="e#36414#36459#0" expanded="false" />
+                <element signature="e#36509#36556#0" expanded="false" />
+                <element signature="e#36615#36687#0" expanded="false" />
+                <element signature="e#36749#36823#0" expanded="false" />
+                <element signature="e#36881#37606#0" expanded="false" />
+                <element signature="e#37666#38132#0" expanded="false" />
+                <element signature="e#38190#38291#0" expanded="false" />
+                <element signature="e#38443#38730#0" expanded="false" />
+                <element signature="e#38782#40410#0" expanded="false" />
+                <element signature="e#40453#41678#0" expanded="false" />
+                <element signature="e#41810#43285#0" expanded="false" />
+                <element signature="e#43322#46453#0" expanded="false" />
+                <element signature="e#43865#45071#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -249,7 +248,7 @@
       <file leaf-file-name="test2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="216">
               <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               <folding />
             </state>
@@ -259,7 +258,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4257">
+            <state relative-caret-position="4644">
               <caret line="129" column="40" lean-forward="false" selection-start-line="129" selection-start-column="40" selection-end-line="129" selection-end-column="40" />
               <folding />
             </state>
@@ -324,9 +323,10 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="780" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -342,6 +342,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -370,7 +371,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -488,25 +488,27 @@
       <workItem from="1497924559022" duration="2420000" />
       <workItem from="1498437025609" duration="16881000" />
       <workItem from="1498475934301" duration="6923000" />
+      <workItem from="1498524540643" duration="1851000" />
+      <workItem from="1499997132235" duration="162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101768000" />
+    <option name="totallyTimeSpent" value="103795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18059702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -524,7 +526,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -534,34 +536,25 @@
         <state relative-caret-position="29772">
           <caret line="827" column="0" lean-forward="true" selection-start-line="827" selection-start-column="0" selection-end-line="827" selection-end-column="0" />
           <folding>
-            <element signature="e#334#14874#0" expanded="false" />
-            <element signature="e#14918#15861#0" expanded="false" />
-            <element signature="e#15882#23936#0" expanded="false" />
-            <element signature="e#23968#34870#0" expanded="false" />
-            <element signature="e#34919#35376#0" expanded="false" />
-            <element signature="e#35437#36550#0" expanded="false" />
-            <element signature="e#36602#36785#0" expanded="false" />
-            <element signature="e#36825#39216#0" expanded="false" />
-            <element signature="e#37068#37158#0" expanded="false" />
-            <element signature="e#37211#37289#0" expanded="false" />
-            <element signature="e#37337#37382#0" expanded="false" />
-            <element signature="e#37538#37610#0" expanded="false" />
-            <element signature="e#37672#37746#0" expanded="false" />
-            <element signature="e#37804#38529#0" expanded="false" />
-            <element signature="e#38589#39055#0" expanded="false" />
-            <element signature="e#39113#39214#0" expanded="false" />
-            <element signature="e#39366#39653#0" expanded="false" />
-            <element signature="e#39705#41333#0" expanded="false" />
-            <element signature="e#40019#40218#0" expanded="false" />
-            <element signature="e#41528#42137#0" expanded="false" />
-            <element signature="e#42733#44208#0" expanded="false" />
-            <element signature="e#43124#43342#0" expanded="false" />
-            <element signature="e#43404#43716#0" expanded="false" />
-            <element signature="e#44788#45994#0" expanded="false" />
-            <element signature="e#47418#47582#0" expanded="false" />
-            <element signature="e#47687#48262#0" expanded="false" />
-            <element signature="e#48353#48782#0" expanded="false" />
-            <element signature="e#49401#50703#0" expanded="false" />
+            <element signature="e#27854#29039#0" expanded="false" />
+            <element signature="e#29133#32007#0" expanded="false" />
+            <element signature="e#32057#32920#0" expanded="false" />
+            <element signature="e#34547#34765#0" expanded="false" />
+            <element signature="e#36145#36235#0" expanded="false" />
+            <element signature="e#36288#36366#0" expanded="false" />
+            <element signature="e#36414#36459#0" expanded="false" />
+            <element signature="e#36509#36556#0" expanded="false" />
+            <element signature="e#36615#36687#0" expanded="false" />
+            <element signature="e#36749#36823#0" expanded="false" />
+            <element signature="e#36881#37606#0" expanded="false" />
+            <element signature="e#37666#38132#0" expanded="false" />
+            <element signature="e#38190#38291#0" expanded="false" />
+            <element signature="e#38443#38730#0" expanded="false" />
+            <element signature="e#38782#40410#0" expanded="false" />
+            <element signature="e#40453#41678#0" expanded="false" />
+            <element signature="e#41810#43285#0" expanded="false" />
+            <element signature="e#43322#46453#0" expanded="false" />
+            <element signature="e#43865#45071#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -570,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="483" lean-forward="true" selection-start-line="0" selection-start-column="483" selection-end-line="0" selection-end-column="483" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +579,7 @@
         <state relative-caret-position="198">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1498476191567" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
+            <marker date="1498524265329" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -604,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="483" lean-forward="false" selection-start-line="0" selection-start-column="483" selection-end-line="0" selection-end-column="483" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,34 +612,25 @@
         <state relative-caret-position="12012">
           <caret line="671" column="0" lean-forward="true" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
           <folding>
-            <element signature="e#334#14874#0" expanded="false" />
-            <element signature="e#14918#15861#0" expanded="false" />
-            <element signature="e#15882#23936#0" expanded="false" />
-            <element signature="e#23968#34870#0" expanded="false" />
-            <element signature="e#34919#35376#0" expanded="false" />
-            <element signature="e#35437#36550#0" expanded="false" />
-            <element signature="e#36602#36785#0" expanded="false" />
-            <element signature="e#36825#39216#0" expanded="false" />
-            <element signature="e#37068#37158#0" expanded="false" />
-            <element signature="e#37211#37289#0" expanded="false" />
-            <element signature="e#37337#37382#0" expanded="false" />
-            <element signature="e#37538#37610#0" expanded="false" />
-            <element signature="e#37672#37746#0" expanded="false" />
-            <element signature="e#37804#38529#0" expanded="false" />
-            <element signature="e#38589#39055#0" expanded="false" />
-            <element signature="e#39113#39214#0" expanded="false" />
-            <element signature="e#39366#39653#0" expanded="false" />
-            <element signature="e#39705#41333#0" expanded="false" />
-            <element signature="e#40019#40218#0" expanded="false" />
-            <element signature="e#41528#42137#0" expanded="false" />
-            <element signature="e#42733#44208#0" expanded="false" />
-            <element signature="e#43124#43342#0" expanded="false" />
-            <element signature="e#43404#43716#0" expanded="false" />
-            <element signature="e#44788#45994#0" expanded="false" />
-            <element signature="e#47418#47582#0" expanded="false" />
-            <element signature="e#47687#48262#0" expanded="false" />
-            <element signature="e#48353#48782#0" expanded="false" />
-            <element signature="e#49401#50703#0" expanded="false" />
+            <element signature="e#27854#29039#0" expanded="false" />
+            <element signature="e#29133#32007#0" expanded="false" />
+            <element signature="e#32057#32920#0" expanded="false" />
+            <element signature="e#34547#34765#0" expanded="false" />
+            <element signature="e#36145#36235#0" expanded="false" />
+            <element signature="e#36288#36366#0" expanded="false" />
+            <element signature="e#36414#36459#0" expanded="false" />
+            <element signature="e#36509#36556#0" expanded="false" />
+            <element signature="e#36615#36687#0" expanded="false" />
+            <element signature="e#36749#36823#0" expanded="false" />
+            <element signature="e#36881#37606#0" expanded="false" />
+            <element signature="e#37666#38132#0" expanded="false" />
+            <element signature="e#38190#38291#0" expanded="false" />
+            <element signature="e#38443#38730#0" expanded="false" />
+            <element signature="e#38782#40410#0" expanded="false" />
+            <element signature="e#40453#41678#0" expanded="false" />
+            <element signature="e#41810#43285#0" expanded="false" />
+            <element signature="e#43322#46453#0" expanded="false" />
+            <element signature="e#43865#45071#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -658,7 +640,7 @@
         <state relative-caret-position="216">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1498476191567" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
+            <marker date="1498524265329" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -675,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="483" lean-forward="false" selection-start-line="0" selection-start-column="483" selection-end-line="0" selection-end-column="483" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,34 +674,25 @@
         <state relative-caret-position="2592">
           <caret line="268" column="72" lean-forward="false" selection-start-line="268" selection-start-column="65" selection-end-line="268" selection-end-column="72" />
           <folding>
-            <element signature="e#334#14874#0" expanded="false" />
-            <element signature="e#14918#15861#0" expanded="false" />
-            <element signature="e#15882#23936#0" expanded="false" />
-            <element signature="e#23968#34870#0" expanded="false" />
-            <element signature="e#34919#35376#0" expanded="false" />
-            <element signature="e#35437#36550#0" expanded="false" />
-            <element signature="e#36602#36785#0" expanded="false" />
-            <element signature="e#36825#39216#0" expanded="false" />
-            <element signature="e#37068#37158#0" expanded="false" />
-            <element signature="e#37211#37289#0" expanded="false" />
-            <element signature="e#37337#37382#0" expanded="false" />
-            <element signature="e#37538#37610#0" expanded="false" />
-            <element signature="e#37672#37746#0" expanded="false" />
-            <element signature="e#37804#38529#0" expanded="false" />
-            <element signature="e#38589#39055#0" expanded="false" />
-            <element signature="e#39113#39214#0" expanded="false" />
-            <element signature="e#39366#39653#0" expanded="false" />
-            <element signature="e#39705#41333#0" expanded="false" />
-            <element signature="e#40019#40218#0" expanded="false" />
-            <element signature="e#41528#42137#0" expanded="false" />
-            <element signature="e#42733#44208#0" expanded="false" />
-            <element signature="e#43124#43342#0" expanded="false" />
-            <element signature="e#43404#43716#0" expanded="false" />
-            <element signature="e#44788#45994#0" expanded="false" />
-            <element signature="e#47418#47582#0" expanded="false" />
-            <element signature="e#47687#48262#0" expanded="false" />
-            <element signature="e#48353#48782#0" expanded="false" />
-            <element signature="e#49401#50703#0" expanded="false" />
+            <element signature="e#27854#29039#0" expanded="false" />
+            <element signature="e#29133#32007#0" expanded="false" />
+            <element signature="e#32057#32920#0" expanded="false" />
+            <element signature="e#34547#34765#0" expanded="false" />
+            <element signature="e#36145#36235#0" expanded="false" />
+            <element signature="e#36288#36366#0" expanded="false" />
+            <element signature="e#36414#36459#0" expanded="false" />
+            <element signature="e#36509#36556#0" expanded="false" />
+            <element signature="e#36615#36687#0" expanded="false" />
+            <element signature="e#36749#36823#0" expanded="false" />
+            <element signature="e#36881#37606#0" expanded="false" />
+            <element signature="e#37666#38132#0" expanded="false" />
+            <element signature="e#38190#38291#0" expanded="false" />
+            <element signature="e#38443#38730#0" expanded="false" />
+            <element signature="e#38782#40410#0" expanded="false" />
+            <element signature="e#40453#41678#0" expanded="false" />
+            <element signature="e#41810#43285#0" expanded="false" />
+            <element signature="e#43322#46453#0" expanded="false" />
+            <element signature="e#43865#45071#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -730,7 +702,7 @@
         <state relative-caret-position="216">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1498476191567" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
+            <marker date="1498524265329" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -747,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="537" lean-forward="false" selection-start-line="0" selection-start-column="537" selection-end-line="0" selection-end-column="537" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,34 +742,25 @@
         <state relative-caret-position="21168">
           <caret line="588" column="0" lean-forward="true" selection-start-line="588" selection-start-column="0" selection-end-line="588" selection-end-column="0" />
           <folding>
-            <element signature="e#334#14874#0" expanded="false" />
-            <element signature="e#14918#15861#0" expanded="false" />
-            <element signature="e#15882#23936#0" expanded="false" />
-            <element signature="e#23968#34870#0" expanded="false" />
-            <element signature="e#34919#35376#0" expanded="false" />
-            <element signature="e#35437#36550#0" expanded="false" />
-            <element signature="e#36602#36785#0" expanded="false" />
-            <element signature="e#36825#39216#0" expanded="false" />
-            <element signature="e#37068#37158#0" expanded="false" />
-            <element signature="e#37211#37289#0" expanded="false" />
-            <element signature="e#37337#37382#0" expanded="false" />
-            <element signature="e#37538#37610#0" expanded="false" />
-            <element signature="e#37672#37746#0" expanded="false" />
-            <element signature="e#37804#38529#0" expanded="false" />
-            <element signature="e#38589#39055#0" expanded="false" />
-            <element signature="e#39113#39214#0" expanded="false" />
-            <element signature="e#39366#39653#0" expanded="false" />
-            <element signature="e#39705#41333#0" expanded="false" />
-            <element signature="e#40019#40218#0" expanded="false" />
-            <element signature="e#41528#42137#0" expanded="false" />
-            <element signature="e#42733#44208#0" expanded="false" />
-            <element signature="e#43124#43342#0" expanded="false" />
-            <element signature="e#43404#43716#0" expanded="false" />
-            <element signature="e#44788#45994#0" expanded="false" />
-            <element signature="e#47418#47582#0" expanded="false" />
-            <element signature="e#47687#48262#0" expanded="false" />
-            <element signature="e#48353#48782#0" expanded="false" />
-            <element signature="e#49401#50703#0" expanded="false" />
+            <element signature="e#27854#29039#0" expanded="false" />
+            <element signature="e#29133#32007#0" expanded="false" />
+            <element signature="e#32057#32920#0" expanded="false" />
+            <element signature="e#34547#34765#0" expanded="false" />
+            <element signature="e#36145#36235#0" expanded="false" />
+            <element signature="e#36288#36366#0" expanded="false" />
+            <element signature="e#36414#36459#0" expanded="false" />
+            <element signature="e#36509#36556#0" expanded="false" />
+            <element signature="e#36615#36687#0" expanded="false" />
+            <element signature="e#36749#36823#0" expanded="false" />
+            <element signature="e#36881#37606#0" expanded="false" />
+            <element signature="e#37666#38132#0" expanded="false" />
+            <element signature="e#38190#38291#0" expanded="false" />
+            <element signature="e#38443#38730#0" expanded="false" />
+            <element signature="e#38782#40410#0" expanded="false" />
+            <element signature="e#40453#41678#0" expanded="false" />
+            <element signature="e#41810#43285#0" expanded="false" />
+            <element signature="e#43322#46453#0" expanded="false" />
+            <element signature="e#43865#45071#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -808,7 +770,7 @@
         <state relative-caret-position="198">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1498476191567" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
+            <marker date="1498524265329" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -825,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="537" lean-forward="false" selection-start-line="0" selection-start-column="537" selection-end-line="0" selection-end-column="537" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,34 +810,25 @@
         <state relative-caret-position="2838">
           <caret line="574" column="0" lean-forward="false" selection-start-line="574" selection-start-column="0" selection-end-line="574" selection-end-column="0" />
           <folding>
-            <element signature="e#334#14874#0" expanded="false" />
-            <element signature="e#14918#15861#0" expanded="false" />
-            <element signature="e#15882#23936#0" expanded="false" />
-            <element signature="e#23968#34870#0" expanded="false" />
-            <element signature="e#34919#35376#0" expanded="false" />
-            <element signature="e#35437#36550#0" expanded="false" />
-            <element signature="e#36602#36785#0" expanded="false" />
-            <element signature="e#36825#39216#0" expanded="false" />
-            <element signature="e#37068#37158#0" expanded="false" />
-            <element signature="e#37211#37289#0" expanded="false" />
-            <element signature="e#37337#37382#0" expanded="false" />
-            <element signature="e#37538#37610#0" expanded="false" />
-            <element signature="e#37672#37746#0" expanded="false" />
-            <element signature="e#37804#38529#0" expanded="false" />
-            <element signature="e#38589#39055#0" expanded="false" />
-            <element signature="e#39113#39214#0" expanded="false" />
-            <element signature="e#39366#39653#0" expanded="false" />
-            <element signature="e#39705#41333#0" expanded="false" />
-            <element signature="e#40019#40218#0" expanded="false" />
-            <element signature="e#41528#42137#0" expanded="false" />
-            <element signature="e#42733#44208#0" expanded="false" />
-            <element signature="e#43124#43342#0" expanded="false" />
-            <element signature="e#43404#43716#0" expanded="false" />
-            <element signature="e#44788#45994#0" expanded="false" />
-            <element signature="e#47418#47582#0" expanded="false" />
-            <element signature="e#47687#48262#0" expanded="false" />
-            <element signature="e#48353#48782#0" expanded="false" />
-            <element signature="e#49401#50703#0" expanded="false" />
+            <element signature="e#27854#29039#0" expanded="false" />
+            <element signature="e#29133#32007#0" expanded="false" />
+            <element signature="e#32057#32920#0" expanded="false" />
+            <element signature="e#34547#34765#0" expanded="false" />
+            <element signature="e#36145#36235#0" expanded="false" />
+            <element signature="e#36288#36366#0" expanded="false" />
+            <element signature="e#36414#36459#0" expanded="false" />
+            <element signature="e#36509#36556#0" expanded="false" />
+            <element signature="e#36615#36687#0" expanded="false" />
+            <element signature="e#36749#36823#0" expanded="false" />
+            <element signature="e#36881#37606#0" expanded="false" />
+            <element signature="e#37666#38132#0" expanded="false" />
+            <element signature="e#38190#38291#0" expanded="false" />
+            <element signature="e#38443#38730#0" expanded="false" />
+            <element signature="e#38782#40410#0" expanded="false" />
+            <element signature="e#40453#41678#0" expanded="false" />
+            <element signature="e#41810#43285#0" expanded="false" />
+            <element signature="e#43322#46453#0" expanded="false" />
+            <element signature="e#43865#45071#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,7 +838,7 @@
         <state relative-caret-position="198">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1498476191567" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
+            <marker date="1498524265329" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -903,7 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="537" lean-forward="false" selection-start-line="0" selection-start-column="537" selection-end-line="0" selection-end-column="537" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,34 +878,25 @@
         <state relative-caret-position="2805">
           <caret line="573" column="30" lean-forward="false" selection-start-line="573" selection-start-column="30" selection-end-line="573" selection-end-column="30" />
           <folding>
-            <element signature="e#334#14874#0" expanded="false" />
-            <element signature="e#14918#15861#0" expanded="false" />
-            <element signature="e#15882#23936#0" expanded="false" />
-            <element signature="e#23968#34870#0" expanded="false" />
-            <element signature="e#34919#35376#0" expanded="false" />
-            <element signature="e#35437#36550#0" expanded="false" />
-            <element signature="e#36602#36785#0" expanded="false" />
-            <element signature="e#36825#39216#0" expanded="false" />
-            <element signature="e#37068#37158#0" expanded="false" />
-            <element signature="e#37211#37289#0" expanded="false" />
-            <element signature="e#37337#37382#0" expanded="false" />
-            <element signature="e#37538#37610#0" expanded="false" />
-            <element signature="e#37672#37746#0" expanded="false" />
-            <element signature="e#37804#38529#0" expanded="false" />
-            <element signature="e#38589#39055#0" expanded="false" />
-            <element signature="e#39113#39214#0" expanded="false" />
-            <element signature="e#39366#39653#0" expanded="false" />
-            <element signature="e#39705#41333#0" expanded="false" />
-            <element signature="e#40019#40218#0" expanded="false" />
-            <element signature="e#41528#42137#0" expanded="false" />
-            <element signature="e#42733#44208#0" expanded="false" />
-            <element signature="e#43124#43342#0" expanded="false" />
-            <element signature="e#43404#43716#0" expanded="false" />
-            <element signature="e#44788#45994#0" expanded="false" />
-            <element signature="e#47418#47582#0" expanded="false" />
-            <element signature="e#47687#48262#0" expanded="false" />
-            <element signature="e#48353#48782#0" expanded="false" />
-            <element signature="e#49401#50703#0" expanded="false" />
+            <element signature="e#27854#29039#0" expanded="false" />
+            <element signature="e#29133#32007#0" expanded="false" />
+            <element signature="e#32057#32920#0" expanded="false" />
+            <element signature="e#34547#34765#0" expanded="false" />
+            <element signature="e#36145#36235#0" expanded="false" />
+            <element signature="e#36288#36366#0" expanded="false" />
+            <element signature="e#36414#36459#0" expanded="false" />
+            <element signature="e#36509#36556#0" expanded="false" />
+            <element signature="e#36615#36687#0" expanded="false" />
+            <element signature="e#36749#36823#0" expanded="false" />
+            <element signature="e#36881#37606#0" expanded="false" />
+            <element signature="e#37666#38132#0" expanded="false" />
+            <element signature="e#38190#38291#0" expanded="false" />
+            <element signature="e#38443#38730#0" expanded="false" />
+            <element signature="e#38782#40410#0" expanded="false" />
+            <element signature="e#40453#41678#0" expanded="false" />
+            <element signature="e#41810#43285#0" expanded="false" />
+            <element signature="e#43322#46453#0" expanded="false" />
+            <element signature="e#43865#45071#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -964,7 +906,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498476191567" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
+            <marker date="1498524265329" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -982,34 +924,25 @@
         <state relative-caret-position="18360">
           <caret line="510" column="32" lean-forward="true" selection-start-line="510" selection-start-column="32" selection-end-line="511" selection-end-column="36" />
           <folding>
-            <element signature="e#334#14874#0" expanded="false" />
-            <element signature="e#14918#15861#0" expanded="false" />
-            <element signature="e#15882#23936#0" expanded="false" />
-            <element signature="e#23968#34870#0" expanded="false" />
-            <element signature="e#34919#35376#0" expanded="false" />
-            <element signature="e#35437#36550#0" expanded="false" />
-            <element signature="e#36602#36785#0" expanded="false" />
-            <element signature="e#36825#39216#0" expanded="false" />
-            <element signature="e#37068#37158#0" expanded="false" />
-            <element signature="e#37211#37289#0" expanded="false" />
-            <element signature="e#37337#37382#0" expanded="false" />
-            <element signature="e#37538#37610#0" expanded="false" />
-            <element signature="e#37672#37746#0" expanded="false" />
-            <element signature="e#37804#38529#0" expanded="false" />
-            <element signature="e#38589#39055#0" expanded="false" />
-            <element signature="e#39113#39214#0" expanded="false" />
-            <element signature="e#39366#39653#0" expanded="false" />
-            <element signature="e#39705#41333#0" expanded="false" />
-            <element signature="e#40019#40218#0" expanded="false" />
-            <element signature="e#41528#42137#0" expanded="false" />
-            <element signature="e#42733#44208#0" expanded="false" />
-            <element signature="e#43124#43342#0" expanded="false" />
-            <element signature="e#43404#43716#0" expanded="false" />
-            <element signature="e#44788#45994#0" expanded="false" />
-            <element signature="e#47418#47582#0" expanded="false" />
-            <element signature="e#47687#48262#0" expanded="false" />
-            <element signature="e#48353#48782#0" expanded="false" />
-            <element signature="e#49401#50703#0" expanded="false" />
+            <element signature="e#27854#29039#0" expanded="false" />
+            <element signature="e#29133#32007#0" expanded="false" />
+            <element signature="e#32057#32920#0" expanded="false" />
+            <element signature="e#34547#34765#0" expanded="false" />
+            <element signature="e#36145#36235#0" expanded="false" />
+            <element signature="e#36288#36366#0" expanded="false" />
+            <element signature="e#36414#36459#0" expanded="false" />
+            <element signature="e#36509#36556#0" expanded="false" />
+            <element signature="e#36615#36687#0" expanded="false" />
+            <element signature="e#36749#36823#0" expanded="false" />
+            <element signature="e#36881#37606#0" expanded="false" />
+            <element signature="e#37666#38132#0" expanded="false" />
+            <element signature="e#38190#38291#0" expanded="false" />
+            <element signature="e#38443#38730#0" expanded="false" />
+            <element signature="e#38782#40410#0" expanded="false" />
+            <element signature="e#40453#41678#0" expanded="false" />
+            <element signature="e#41810#43285#0" expanded="false" />
+            <element signature="e#43322#46453#0" expanded="false" />
+            <element signature="e#43865#45071#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1018,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="455" lean-forward="false" selection-start-line="0" selection-start-column="455" selection-end-line="0" selection-end-column="455" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,14 +994,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="1174" column="0" lean-forward="false" selection-start-line="1174" selection-start-column="0" selection-end-line="1174" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/photo/33723623.jpg" />
     <entry file="file://$PROJECT_DIR$/test2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="216">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding />
         </state>
@@ -1087,7 +1017,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4257">
+        <state relative-caret-position="4644">
           <caret line="129" column="40" lean-forward="false" selection-start-line="129" selection-start-column="40" selection-end-line="129" selection-end-column="40" />
           <folding />
         </state>
@@ -1096,55 +1026,46 @@
     <entry file="file://$PROJECT_DIR$/public/photo/93811704.jpg" />
     <entry file="file://$PROJECT_DIR$/configs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="216">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="216">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1498476191567" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
+            <marker date="1498524265329" expanded="true" signature="78:215" ph="{&quot;plugin&quot;: true...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="839" column="45" lean-forward="false" selection-start-line="839" selection-start-column="45" selection-end-line="839" selection-end-column="45" />
+        <state relative-caret-position="-1996">
+          <caret line="679" column="48" lean-forward="false" selection-start-line="679" selection-start-column="48" selection-end-line="679" selection-end-column="48" />
           <folding>
-            <element signature="e#334#14874#0" expanded="false" />
-            <element signature="e#14918#15861#0" expanded="false" />
-            <element signature="e#15882#23936#0" expanded="false" />
-            <element signature="e#23968#34870#0" expanded="false" />
-            <element signature="e#34919#35376#0" expanded="false" />
-            <element signature="e#35437#36550#0" expanded="false" />
-            <element signature="e#36602#36785#0" expanded="false" />
-            <element signature="e#36825#39216#0" expanded="false" />
-            <element signature="e#37068#37158#0" expanded="false" />
-            <element signature="e#37211#37289#0" expanded="false" />
-            <element signature="e#37337#37382#0" expanded="false" />
-            <element signature="e#37538#37610#0" expanded="false" />
-            <element signature="e#37672#37746#0" expanded="false" />
-            <element signature="e#37804#38529#0" expanded="false" />
-            <element signature="e#38589#39055#0" expanded="false" />
-            <element signature="e#39113#39214#0" expanded="false" />
-            <element signature="e#39366#39653#0" expanded="false" />
-            <element signature="e#39705#41333#0" expanded="false" />
-            <element signature="e#40019#40218#0" expanded="false" />
-            <element signature="e#41528#42137#0" expanded="false" />
-            <element signature="e#42733#44208#0" expanded="false" />
-            <element signature="e#43124#43342#0" expanded="false" />
-            <element signature="e#43404#43716#0" expanded="false" />
-            <element signature="e#44788#45994#0" expanded="false" />
-            <element signature="e#47418#47582#0" expanded="false" />
-            <element signature="e#47687#48262#0" expanded="false" />
-            <element signature="e#48353#48782#0" expanded="false" />
-            <element signature="e#49401#50703#0" expanded="false" />
+            <element signature="e#27854#29039#0" expanded="false" />
+            <element signature="e#29133#32007#0" expanded="false" />
+            <element signature="e#32057#32920#0" expanded="false" />
+            <element signature="e#34547#34765#0" expanded="false" />
+            <element signature="e#36145#36235#0" expanded="false" />
+            <element signature="e#36288#36366#0" expanded="false" />
+            <element signature="e#36414#36459#0" expanded="false" />
+            <element signature="e#36509#36556#0" expanded="false" />
+            <element signature="e#36615#36687#0" expanded="false" />
+            <element signature="e#36749#36823#0" expanded="false" />
+            <element signature="e#36881#37606#0" expanded="false" />
+            <element signature="e#37666#38132#0" expanded="false" />
+            <element signature="e#38190#38291#0" expanded="false" />
+            <element signature="e#38443#38730#0" expanded="false" />
+            <element signature="e#38782#40410#0" expanded="false" />
+            <element signature="e#40453#41678#0" expanded="false" />
+            <element signature="e#41810#43285#0" expanded="false" />
+            <element signature="e#43322#46453#0" expanded="false" />
+            <element signature="e#43865#45071#0" expanded="false" />
           </folding>
         </state>
       </provider>

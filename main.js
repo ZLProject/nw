@@ -684,16 +684,7 @@ var printer = {
                     videos = videos + ",\"public/video/" + item + "\"";
                 });
                 videos = videos.substr(1, videos.length);
-                // var html = '<object class="" type="application/x-shockwave-flash"  width="100%" height="100%">\n' +
-                //     '<param name="movie" value="res/images/flvplayer.swf">\n' +
-                //     '<param name="quality" value="high">\n' +
-                //     '<param name="allowFullScreen" value="true">\n' +
-                //     '<param name="loop" value="true">\n' +
-                //     '<param name="wmode" value="transparent">\n' +
-                //     '<param name="FlashVars" value="vcastr_file=' + videos + '&amp;BufferTime=0&amp;IsAutoPlay=1&amp;IsContinue=1">\n' +
-                //     '<embed src="res/images/flvplayer.swf" allowfullscreen="true" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100%" height="100%">\n' +
-                //     '</object>';
-                var html = '<video id="video" poster="D:/clientApp/res/images/flvplayer.mp4"  autoplay="autoplay" width="100%" height="100%"></video>' +
+                var html = '<video id="video"  autoplay="autoplay" width="100%" height="100%"></video>' +
                     '<script type="text/javascript">' +
                     '$(function () {' +
                     'var video = document.getElementById("video");' +
